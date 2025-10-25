@@ -1,0 +1,10 @@
+global using Microsoft.AspNetCore.Builder;
+global using Microsoft.Extensions.DependencyInjection;
+global using Microsoft.Extensions.Hosting;
+global using Microsoft.OpenApi.Models;
+global using Products.Application.Interfaces;
+global using Products.Application.UseCases;
+global using Products.Domain.Interfaces;
+global using Products.Infrastructure.AI;
+global using Products.Infrastructure.Caching;
+global using Products.Infrastructure.Repositories;
